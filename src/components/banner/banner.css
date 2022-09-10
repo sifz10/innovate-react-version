@@ -1,0 +1,107 @@
+.banners{
+    background: no-repeat center;
+    background-size: cover;
+    position: relative;
+    padding-top: 293px;
+    padding-bottom: 340px;
+}
+.banner__shape{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.banner__round__shape{
+    width: 120px;
+    height: 120px;
+    border:1px solid #FFABBA;
+    border-radius: 50%;
+    z-index: 999;
+    position: absolute;
+    left: 45%;
+    top:100px;
+    animation: routed 4s infinite linear;
+}
+.banner__small__round{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #FFABBA;
+    position: absolute;
+    top:10px;
+    left: 0;
+ 
+}
+@keyframes routed{
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.banner__bottom__shape{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.banner__text{
+    text-align: center;
+
+}
+.banner__headding{
+    text-transform: capitalize;
+    font-size: 64px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    width: 771px;
+    margin:  0 auto;
+    line-height: 130%;
+    margin-bottom: 24px;
+}
+.banner__pera{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    width: 547px;
+    margin: 0 auto;
+    margin-bottom: 44px;
+}
+.banner__contact{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 14px 20px;
+    background: #FF5538;
+    border-radius: 18px;
+    display: inline-block;
+    color:#FFFFFF;
+    text-transform: capitalize;
+    margin-right: 24px;
+    border:1px solid transparent;
+    transition: .4s;
+
+}
+.banner__contact:hover{
+    background: transparent;
+    border:1px solid #FF5538;
+    color:#29313D
+}
+
+.banner__showcase{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 14px 20px;
+    background: #FF5538;
+    border-radius: 18px;
+    display: inline-block;
+    color:#FFFFFF;
+    text-transform: capitalize;
+    border:1px solid transparent;
+    transition: .4s;
+}
+.banner__showcase:hover{
+    background: transparent;
+    border:1px solid #FF5538;
+    color:#29313D
+}

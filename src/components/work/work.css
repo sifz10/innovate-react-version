@@ -1,0 +1,45 @@
+.work__title{
+    display: flex;
+    margin-bottom: 60px;
+}
+.work__left{
+    width: 50%;
+
+}
+.work__right{
+    width: 49%;
+    text-align: right;
+}
+.work__item{
+    width: 39%;
+    margin-bottom: 60px;
+}
+.work__item1{
+    width: 59%;
+   
+}
+.work__item img{
+    width: 100%;
+    height: 350px;
+}
+.work__item__text{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.work__item__headding{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    text-transform: capitalize;
+}
+.work__item__pera{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color:#FF5538;
+    margin-top: 10px;
+}
+.main1{
+    flex-wrap: wrap;
+    display: flex;
+}

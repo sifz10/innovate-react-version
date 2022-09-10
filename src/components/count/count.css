@@ -1,0 +1,62 @@
+/* ==========================counting end   ================== */
+.countings{
+    margin-top: 100px;
+    position: relative;
+}
+.counting__shape{
+    position: absolute;
+    top:50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.counting__shape1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.counting__left{
+    width: 50%;
+}
+.counting__right{
+    width: 50%;
+}
+.counting__item{
+    width: 50%;
+    padding: 74px 0;
+    text-align: center;
+}
+.counting__item__headding{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color:#29313D;
+    line-height: 140%;
+}
+.counting__item__sub_headding{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color:#29313D;
+    line-height: 100%;
+}
+.counting__headding{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color:#29313D;
+    line-height: 140%;
+    width: 570px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.counting__pera{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color:#29313D;
+    line-height: 200%;
+    width: 550px;
+    margin-bottom:40px;
+}
+
+/* ==========================counting end   ================== */

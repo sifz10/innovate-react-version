@@ -1,0 +1,17 @@
+/* ==========================logo start   ================== */
+.logos{
+    margin-top: 100px;
+}
+.logo__headding{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color:#29313D;
+    line-height: 140%;
+    text-align: center;
+    width: 849px;
+    margin: 0 auto;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+/* ==========================logo end   ================== */
