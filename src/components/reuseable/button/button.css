@@ -1,0 +1,16 @@
+.nav__contact__link{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 14px 20px;
+    background: #FF5538;
+    border-radius: 18px;
+    color:#FFFFFF;
+    transition: .4s;
+    border:1px solid transparent
+}
+.nav__contact__link:hover{
+    background: transparent;
+    border:1px solid #FF5538;
+    color:#29313D
+}

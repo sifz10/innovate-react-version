@@ -1,0 +1,23 @@
+
+.card__item{
+    padding: 40px 30px;
+    background: #ffffff;
+}
+
+.card__hadding{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    color:#29313D;
+    text-transform: capitalize;
+    margin-top: 34px;
+    margin-bottom: 16px;
+}
+.card__pera{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 200%;
+    text-transform: capitalize;
+    width: 374px;
+}

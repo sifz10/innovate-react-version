@@ -1,5 +1,6 @@
 import React from 'react'
 import './experience.css'
+import Button from '../reuseable/button/Button'
 
 function Experience() {
   return (
@@ -19,7 +20,7 @@ function Experience() {
             <div className="experience__right">
             <h3 className="experience__headding">More than just an ad agency, we harness the tools of traditional and digital.</h3>
             <p className="experience__pera" >With over 25 years of experience, we have crafted thousands of strategic discovery process that enables us to peel back the layers which enable us to understand, connect, represent and dominate your market.</p>
-            <a className="banner__showcase" href="#">More about us</a>
+            <Button title="More about us"/>
             <img className="experience__shape" src="./images/exrightshpe.png" alt="ex-shape"/>
         </div>
         </div>

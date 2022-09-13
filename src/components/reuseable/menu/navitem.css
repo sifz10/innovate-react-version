@@ -1,0 +1,23 @@
+.nav__list{
+    display: inline-block;
+    margin-right: 48px;
+    color:#29313D;
+
+    
+}
+.nav__list:hover .nav__link{
+    color:red;
+}
+.nav__list:hover i{
+    transform:rotate(180deg);
+}
+.nav__list i{
+    transition: .4s;
+}
+.nav__link{
+    color:#29313D;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    transition: .4s;
+    font-weight: 600;
+}
